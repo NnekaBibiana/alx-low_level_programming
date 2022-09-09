@@ -2,42 +2,18 @@
 /**
  * main- entry point of the program
  *
- * Return:zero if no errors, non zero if errors
+ * Return: zero if no errors, non-zero if errors.
  */
 int main(void)
 {
-	printf("julien@ubuntu:~/c/0x00$ gcc 6-size.c -m32 -o size32 2> /tmp/32
+	printf("Size of a char:%Id byte(s)\n", sizeof(char));
 
-			julien@ubuntu:~/c/0x00$ gcc 6-size.c -m64 -o size64 2> /tmp/64
+	printf("Size of an int:%Id byte(s)\n", sizeof(int));
 
-			julien@ubuntu:~/c/0x00$ ./size32
+	printf("Size of a long int:%Id byte(s)\n", sizeof(int));
 
-			Size of a char: 1 byte(s)
+	printf("Size of a long long int:%Id byte(s)\n", sizeof(int));
 
-			Size of an int: 4 byte(s)
-
-			Size of a long int: 4 byte(s)
-
-			Size of a long long int: 8 byte(s)
-
-			Size of a float: 4 byte(s)
-
-			julien@ubuntu:~/c/0x00$ ./size64
-
-			Size of a char: 1 byte(s)
-
-			Size of an int: 4 byte(s)
-
-			Size of a long int: 8 byte(s)
-
-			Size of a long long int: 8 byte(s)
-
-			Size of a float: 4 byte(s)
-
-			julien@ubuntu:~/c/0x00$ echo $?
-
-			0
-
-			julien@ubuntu:~/c/0x00$ \n");
+	printf("Size of a float:%Id byte(s)\n", sizeof(int));
 	return (0);
 }
