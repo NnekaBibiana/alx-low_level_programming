@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main-Serves as entry point for the program
- *
+ * main-S:By default returns zero if no errors otherwise return non-zero valueaa
+lue.
  * Return -By default returns zero if no errors otherwise return non-zero value
  */
 int main(void)
