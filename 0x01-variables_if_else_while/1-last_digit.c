@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - start the program to print the last digit of the number
+ * main - start the program to print the digit of the number
  *
  * Return: always 0 (correct answer)
  *
