@@ -12,10 +12,10 @@ int main(void)
 	char p;
 		for (p = 'a'; p <= 'z'; p++)
 		{
-		if (p <= 'q' && 'e';)
+		if (p != 'q' && p != 'e')
 			putchar(p);
 		}
-	putcher("\n");
+	putchar("\n");
 	return (0);
 }
 
