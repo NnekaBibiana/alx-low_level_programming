@@ -6,18 +6,20 @@
  * Return: always 0 (correct)
  *
  */
+
 int main(void)
 {
-	char r;
-	char s;
 
-	for (r == 'a'; r <= 'z'; r++)
+	char i;
+	char j;
+
+	for (i == 'a'; i <= 'z'; i++)
 	{
-		putchar (r);
+		putchar (i);
 	}
-	for (s == 'A'; s <= 'Z'; s++)
+	for (j == 'A'; j <= 'Z'; j++)
 	{
-		putchar (s);
+		putchar (j);
 	}
 	putchar ('\n');
 	return (0);
