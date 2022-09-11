@@ -3,17 +3,17 @@
 /**
  * main - start program that prints letters without q and a
  *
- * Return: anser zero
+ * Return: answer zero
  *
  */
 
 int main(void)
 {
-	char p;
-		for (p = 'a'; p <= 'z'; p++)
+	char i;
+		for (i = 'a'; i <= 'z'; i++)
 		{
-		if (p != 'q' && p != 'e')
-			putchar(p);
+		if (i != 'q' && i != 'e')
+			putchar(i );
 		}
 	putchar("\n");
 	return (0);
