@@ -1,0 +1,19 @@
+#include <stdio.h>
+/**
+ * main - start program that prints numbers
+ *
+ * Return: always zero
+ *
+ */
+
+int main(void)
+{
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d", i);
+	}
+	printf("\n");
+	return (0);
+}
