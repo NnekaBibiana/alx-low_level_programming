@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - starting program by printing numbers
+ * main - starting program 
  *
  * Return: always zero
  *
@@ -14,6 +14,6 @@ int main(void)
 	{
 		putchar(i);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
