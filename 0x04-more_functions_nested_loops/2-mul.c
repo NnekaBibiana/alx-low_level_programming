@@ -5,14 +5,12 @@
  * @a: first number
  * @b: second number
  *
- * Return: result to be given
+ * Return: Result to be given
  */
+
 mul(int a, int b)
+
 {
-	int c;
-
-	c = a * b;
-
-	return (c);
+	return (a * b);
 
 }
