@@ -2,12 +2,12 @@
 
 
 /**
- * int-strlen - returns the length of the string 
- * @s : string
- * Return: length
+ * int _strlen - returns the length of the string
+ * @s: string
+ * Return: Length
  */
 
-int _strlen( char *s)
+_strlen(char *s)
 {
 	int count = 0;
 
