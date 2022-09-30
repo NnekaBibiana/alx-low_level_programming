@@ -1,10 +1,9 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 
 /**
- * main - multiplies two numbers
+ * main - multiplies two arguments
  * @argc: number of arguments
  * @argv: array of arguments
  * Return: 1 if not two arguments
