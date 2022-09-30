@@ -5,10 +5,10 @@
  * main - multiplies two numbers
  * @argc: number of arguments
  * @argv: array of arguments
- * Return: 0
+ * Return: 1 if not two arguments
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	if (argc == 3)
 	{
