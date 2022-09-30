@@ -10,17 +10,15 @@
 
 int main(int argc, char *argv[])
 {
-	int Result, num1, num2;
-
-	num1 = _atoi(argv[1]);
-	num2 = _atoi(argv[2]);
-       
-        Result = _atoi(argv[1]) * _atoi(argv[2]);
+	if (argc == 3)
 	{
+		int result;
 
-	printf("%d\n", Result);
-	}
-
+		result = _atoi(argv[1]) * _atoi(argv[2]);
+		printf("%d|n", result);
 	return (0);
+	}
+	printf("Error\n");
+	return (1);
 }
 
