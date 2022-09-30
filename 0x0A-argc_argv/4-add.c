@@ -5,7 +5,7 @@
  * main - adds positive number
  * @argv: number of arguments
  * @argc: array of arguments
- * Return: 1 if not intger
+ * Return: 1 or 0
  *
  */
 
