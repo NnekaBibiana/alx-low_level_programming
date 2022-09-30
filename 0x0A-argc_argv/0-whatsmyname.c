@@ -15,5 +15,6 @@ int main(int argc, char *argv[])
 
 	for (count = 0; count < argc; count++)
 		putchar(count);
+	putchar('\n');
 	return (0);
 }
