@@ -2,12 +2,13 @@
 /**
  * main - Entry point
  *
- * return - Always success
+ * Return: Always success
  */
 int main(void)
 {
         char lower;
 	char upper;
+
         for (lower = 'a'; lower <= 'z'; lower++)
         {
                 putchar(lower);
@@ -15,7 +16,7 @@ int main(void)
 	for (upper = 'A'; upper <= 'Z'; upper++)
 	{
 		putchar(upper);
-		putchar('\n');
 	}
-	return (0);
+		putchar('\n');
+		return (0);
 }
