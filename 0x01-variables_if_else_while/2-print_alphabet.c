@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * return - Always success
+ * return: Always success
  */
 int main(void)
 {
@@ -10,7 +10,7 @@ int main(void)
 	for (lower='a'; lower <='z'; lower++)
 	{
 		putchar(lower);
-		putchar('\n');
 	}
-	return (0);
+		putchar('\n');
+		return (0);
 }
