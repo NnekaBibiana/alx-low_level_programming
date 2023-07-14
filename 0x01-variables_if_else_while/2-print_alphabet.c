@@ -2,12 +2,12 @@
 /**
  * main - Entry point
  *
- * return: Always success
+ * Return: Always success
  */
 int main(void)
 {
-	char lower='a';
-	for (lower='a'; lower <='z'; lower++)
+	char lower = 'a';
+	for (lower = 'a'; lower <= 'z'; lower++)
 	{
 		putchar(lower);
 	}
