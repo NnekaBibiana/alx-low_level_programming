@@ -6,17 +6,16 @@
  */
 int main(void)
 {
-        char lower;
+	char lower;
 
-        for (lower = 'a'; lower <= 'z'; lower++)
-        {
+	for (lower = 'a'; lower <= 'z'; lower++)
+	{
 		if (lower == 'q' || lower == 'e')
 		{
 			continue;
 		}
-                putchar(lower);
-
-        }
-                putchar('\n');
-                return (0);
+		putchar(lower);
+	}
+	putchar('\n');
+	return (0);
 }
