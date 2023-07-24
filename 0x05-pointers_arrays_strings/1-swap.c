@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *wap_int - Swaping data
+ * swap_int - Swaping data
  * @a: first parameter
  * @b:econd parameter
  * Return: Always void
@@ -12,5 +12,4 @@ void swap_int(int *a, int *b)
 	temp = *a;
 	*a = *b;
 	*b = temp;
-	return;
 }
