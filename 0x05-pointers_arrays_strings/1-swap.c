@@ -5,7 +5,7 @@
  * @b:econd parameter
  * Return: Always void
  */
-voidwap_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int temp;
 
