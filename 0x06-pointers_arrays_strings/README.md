@@ -1,0 +1,2 @@
+_
+ipointers and strings
